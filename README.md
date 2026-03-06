@@ -1,6 +1,6 @@
 # Linux Notes
 
-Linux Notes seeks to spread and accumulate the knowledge of Linux for everybody by thorough, detailed instructionals 
+Linux Notes seeks to spread and accumulate the knowledge of Linux for everybody by thorough, detailed instructionals
 via one-page-only documentation.
 
 ## Good Redundancy vs. Bad Redundancy
