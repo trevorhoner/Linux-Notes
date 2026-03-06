@@ -8,6 +8,7 @@ the process should remain relatively the same.
 ### Backup.1
 
 First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
+The path to your external drive should be in the following format e.g.: /dev/sda1
 
 Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo mkdir -p /mnt/yourdrive"
 
@@ -21,3 +22,7 @@ The most straight forward way is use the "cp" command. e.g. "sudo cp -v /mnt/you
 '-v' = verbose, tells you what is being copied in realtime.
 
 If you are using "nnn," type "a" to select all. Navigate to your copy destination and press: "ctrl + p"
+
+### Backup.3 
+
+
