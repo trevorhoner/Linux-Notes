@@ -1,4 +1,4 @@
-# Linux-Notes
+# Linux Notes
 
 Linux Notes seeks to spread and accumulate the knowledge of Linux for everybody by thorough, detailed explanations 
 via one-page-only documentation.
