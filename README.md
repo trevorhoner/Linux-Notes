@@ -1,15 +1,17 @@
 # Linux-Notes
 
-Linux Notes is a project aimed for thorough, detailed explanations on how to use Linux via a OPO (one-page only format).
+Linux Notes seeks to spread and accumulate the knowledge of Linux for everybody by thorough, detailed explanations 
+via one-page-only documentation.
 
 ## Good Redundancy vs. Bad Redundancy
 
 Good redundancy is defined as repeated information that provides instructional clarity that transfers to other topics. 
-Bad redundancy is defined as unnecessary, repeated information.
+Bad redundancy is defined as unhelpful, repeated information.
 
 Knowing the difference between good and bad redundancy is an acquired, nuanced skill.
 
 ## One Page Only (OPO)
+
 This project is inspired by Arch Linuxs' wiki page and commitment to concise and helpful information.
 
 Linux-Notes states that good redundancy can make a Linux user learn exponentially more compared to a ruthlessly, minimal guide.
@@ -24,5 +26,6 @@ rather than alt-tabbing through endless hyperlinks.
 Linux-Notes seeks to be a companion and not a competitor to Arch linux wiki. That a fine balance between minimalism and redundancy are both encouraged rather than if one philosophy is superior to the other. 
 
 ## Community Driven
-This should go without saying, but Linux-Notes is entirely open-source and actively encourages all levels of 
+
+Linux-Notes is entirely open-source and actively encourages all levels of 
 experience to participate to this repo.
