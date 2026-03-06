@@ -27,6 +27,6 @@ Linux-Notes seeks to be a companion and not a competitor to Arch linux wiki. Tha
 
 ## Community Driven
 
-Linux-Notes is entirely open-source and actively encourages all levels of 
+Linux Notes is entirely open-source and actively encourages all levels of 
 experience to participate to this repo.
 
