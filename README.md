@@ -16,7 +16,7 @@ This project is inspired by Arch Linuxs' wiki page and commitment to concise and
 
 Linux-Notes states that good redundancy can make a Linux user learn exponentially more compared to a ruthlessly, minimal guide.
 For example, imagine you are reading about filesystem types in an instructional about partitioning hard-drives. 
-Instead of alternating between multiple tabs of different filesystem types, the explanation of the file system is on the page. 
+Instead of alternating between multiple tabs of different filesystem types, the explanation of each file system is on the page. 
 So not only does the user learn how to partition hard-drives but simultaneously learns how to format file systems.
 
 The perspective of Linux-Notes is that a beginner or Linux veteran can learn or refresh their memory on a topic of 
@@ -29,3 +29,4 @@ Linux-Notes seeks to be a companion and not a competitor to Arch linux wiki. Tha
 
 Linux-Notes is entirely open-source and actively encourages all levels of 
 experience to participate to this repo.
+
