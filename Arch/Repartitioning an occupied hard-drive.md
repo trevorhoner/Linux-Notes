@@ -32,14 +32,14 @@ Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of d
 I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive /path/to/backup/directory'
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
 
-**Note:in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
+**Note: in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
 'rsync -av --progress --partial --append-verify /mnt/yourdrive /path/to/backup/directory'
 
--a = archive mode, perserves permissions, timestamps, symlinks, etc. (like cp -a)
--v = verbose mode, details what files are being transferred
---progress = shows ETA and number of bytes being transferred
---partial = keeps partially transferred files instead of deleting them
---append-verify = safest resume mode: appends missing data and checksums to make sure nothing got corrupted.
+*-a = archive mode, perserves permissions, timestamps, symlinks, etc. (like cp -a)
+*-v = verbose mode, details what files are being transferred
+*--progress = shows ETA and number of bytes being transferred
+*--partial = keeps partially transferred files instead of deleting them
+*--append-verify = safest resume mode: appends missing data and checksums to make sure nothing got corrupted.
 
 ### Backup 1.3 
 
