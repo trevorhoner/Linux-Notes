@@ -2,9 +2,9 @@
 
 ## Cheatsheet   
 
-- [ ] [**1.**]( #1-find-your-drive ) ldisk -f 
+- [ ] [**1.**]( #1-find-your-drive ) lsblk -f 
 - [ ] [**2.**]( #2-make-mounting-directory ) sudo mkdir -p /mnt/yourdrive
-- [ ] [**3.**]( #3-mount-your-drive ) sudo mount /dev/hard-drive /mnt/yourdrive
+- [ ] [**3.**]( #3-mount-your-drive ) sudo mount /dev/sdx# /mnt/yourdrive
 - [ ] [**4.**]( #4-backup-your-files ) rsync -av --progess /mnt/yourdrive/ /path/to/backup/directory/
 
 ## Purpose
@@ -15,7 +15,7 @@ a backup drive. Or maybe your entire disk got corrupted.
 
 ### 1. Find your drive 
 
-First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
+First, find the used hard-drive you want to use by going into your terminal and typing "lsblk -f." Use sudo, su, etc. if denied permission.
 The path to your external drive should be in the following format e.g.: /dev/sda1
 
 ### 2. Make mounting directory 
