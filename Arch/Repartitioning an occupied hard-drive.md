@@ -3,7 +3,7 @@
 ## Cheatsheet   
 
 - [ ] 1. Find your drive = ldsisk -f 
-- [ ] 2. Make directory = sudo mkdir -p /mnt/yourdrive
+- [ ] 2. Make mounting directory = sudo mkdir -p /mnt/yourdrive
 - [ ] 3. Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
 - [ ] 4. Backup your files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
 
@@ -18,7 +18,7 @@ a backup drive. Or maybe your entire disk got corrupted.
 First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
 The path to your external drive should be in the following format e.g.: /dev/sda1
 
-### 2. Make directory 
+### 2. Make mounting directory 
 
 Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo mkdir -p /mnt/yourdrive"
 
