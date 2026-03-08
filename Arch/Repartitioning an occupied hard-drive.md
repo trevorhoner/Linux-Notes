@@ -4,7 +4,7 @@
 
 This guide explains how to repartition or resize an internal/external hard-drive with pre-existing data on it.
 Repartitioning hard-drives can be done for various reasons. Perhaps you want to multi-boot or use your old external hard-drive as 
-a backup drive. Or maybe you're entire disk got corrupted.
+a backup drive. Or maybe your entire disk got corrupted.
 
 ## Cheatsheet   
     1. [ ] Make directory = sudo mkdir -p /mnt/your-hard-drive
