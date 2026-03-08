@@ -3,9 +3,9 @@
 ## Cheatsheet   
 
 - [ ] [**1.**]( #1-find-your-drive ) ldisk -f 
-- [ ] 2. sudo mkdir -p /mnt/yourdrive
-- [ ] 3. sudo mount /dev/hard-drive /mnt/yourdrive
-- [ ] 4. rsync -av --progess /mnt/yourdrive/ /path/to/backup/directory/
+- [ ] [**2.**]( #2-make-mounting-directory ) sudo mkdir -p /mnt/yourdrive
+- [ ] [**3.**]( #3-mount-your-drive ) sudo mount /dev/hard-drive /mnt/yourdrive
+- [ ] [**4.**]( #4-backup-your-files ) rsync -av --progess /mnt/yourdrive/ /path/to/backup/directory/
 
 ## Purpose
 
