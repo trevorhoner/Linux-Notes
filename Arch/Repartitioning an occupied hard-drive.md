@@ -5,7 +5,7 @@
 - [ ] 1. Find your drive = ldsisk -f 
 - [ ] 2. Make mounting directory = sudo mkdir -p /mnt/yourdrive
 - [ ] 3. Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
-- [ ] 4. Backup your files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
+- [ ] 4. Backup your files = rsync -av --progess /mnt/yourdrive/ /path/to/backup/directory/
 
 ## Purpose
 
@@ -28,7 +28,9 @@ Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of d
 
 ### 4. Backup your files
 
-I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive /path/to/backup/directory'
+I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive/ /path/to/backup/directory/'
+**IMPORTANT:** " / " at the end of the directory = **Trailing** make sure this is here. Otherwise will make new subdirectory.
+
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
 
 **Note: in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
