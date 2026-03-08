@@ -2,7 +2,7 @@
 
 ## Cheatsheet   
 
-- [ ] 1. ldsisk -f 
+  [ ] **['1.'](### 1. Find your drive)** ldisk -f 
 - [ ] 2. sudo mkdir -p /mnt/yourdrive
 - [ ] 3. sudo mount /dev/hard-drive /mnt/yourdrive
 - [ ] 4. rsync -av --progess /mnt/yourdrive/ /path/to/backup/directory/
