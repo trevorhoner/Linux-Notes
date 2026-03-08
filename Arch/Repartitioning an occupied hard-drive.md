@@ -1,8 +1,9 @@
 # Repartitioning an occupied hard-drive
 
 ## Cheatsheet   
-    1. [ ] Make directory = sudo mkdir -p /mnt/yourdrive
-    2. [ ] Find your drive = lsdisk -f 
+
+    1. [ ] Find your drive = lsdisk -f 
+    2. [ ] Make directory = sudo mkdir -p /mnt/yourdrive
     3. [ ] Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
     4. [ ] Backup files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
 
