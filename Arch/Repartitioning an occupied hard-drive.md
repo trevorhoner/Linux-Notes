@@ -1,5 +1,11 @@
 # Repartitioning an occupied hard-drive
 
+## Purpose
+
+This guide explains how to repartition or resize an internal/external hard-drive with pre-existing data on it.
+Repartitioning hard-drives can be done for various reasons. Perhaps you want to multi-boot or use your old external hard-drive as 
+a backup drive. Or maybe you're entire disk got corrupted.
+
 ## 1.Backup 
 
 First step of priority is to make a backup of your files. Whether you are using an internal or external drive
