@@ -13,20 +13,20 @@ This guide explains how to repartition or resize an internal/external hard-drive
 Repartitioning hard-drives can be done for various reasons. Perhaps you want to multi-boot or use your old external hard-drive as 
 a backup drive. Or maybe your entire disk got corrupted.
 
-### 1 Find your drive 
+### 1. Find your drive 
 
 First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
 The path to your external drive should be in the following format e.g.: /dev/sda1
 
-### 2 Make directory 
+### 2. Make directory 
 
 Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo mkdir -p /mnt/yourdrive"
 
-### 3 Mount your drive 
+### 3. Mount your drive 
 
 Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of drive, # = number of partition
 
-### 4 Backup your files
+### 4. Backup your files
 
 I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive /path/to/backup/directory'
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
@@ -40,5 +40,5 @@ This command will allow you to see the overall progress of files being transferr
  - --partial = keeps partially transferred files instead of deleting them
  - --append-verify = safest resume mode: appends missing data and checksums to make sure nothing got corrupted.
 
-### 1.3 
+### 5. 
 
