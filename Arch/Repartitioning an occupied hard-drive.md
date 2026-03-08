@@ -33,7 +33,7 @@ This command will allow you to see the overall progress of files being transferr
 
 **Note: in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
 
-- 'rsync -av --progress --partial --append-verify /mnt/yourdrive /path/to/backup/directory'
+[ rsync -av --progress --partial --append-verify /mnt/yourdrive /path/to/backup/directory ]
  - -a = archive mode, perserves permissions, timestamps, symlinks, etc. (like cp -a)
  - -v = verbose mode, details what files are being transferred
  - --progress = shows ETA and number of bytes being transferred
