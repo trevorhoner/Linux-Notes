@@ -3,7 +3,7 @@
 ## Cheatsheet   
 
 1. **Backup**
-- [ ] 1.1 Find your drive** = ldsisk -f 
+- [ ] 1.1 Find your drive = ldsisk -f 
 - [ ] Make directory = sudo mkdir -p /mnt/yourdrive
 - [ ] Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
 - [ ] Backup files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
