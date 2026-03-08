@@ -18,7 +18,7 @@ a backup drive. Or maybe your entire disk got corrupted.
 First step of priority is to make a backup of your files. Whether you are using an internal or external drive
 the process should remain relatively the same.
 
-### Backup 1.1
+### 1.1
 
 First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
 The path to your external drive should be in the following format e.g.: /dev/sda1
@@ -27,7 +27,7 @@ Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo
 
 Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of drive, # = number of partition
 
-### Backup 1.2 
+### 1.2 
 
 I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive /path/to/backup/directory'
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
@@ -41,5 +41,5 @@ This command will allow you to see the overall progress of files being transferr
 - --partial = keeps partially transferred files instead of deleting them
 - --append-verify = safest resume mode: appends missing data and checksums to make sure nothing got corrupted.
 
-### Backup 1.3 
+### 1.3 
 
