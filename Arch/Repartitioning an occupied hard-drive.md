@@ -3,7 +3,7 @@
 ## Cheatsheet   
 
 1. Backup
-- [ ] **1.1 Find your drive** = lsdisk -f 
+- [ ] **1.1 Find your drive** = 'lsdisk -f' 
 - [ ] Make directory = sudo mkdir -p /mnt/yourdrive
 - [ ] Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
 - [ ] Backup files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
@@ -19,15 +19,15 @@ a backup drive. Or maybe your entire disk got corrupted.
 First step of priority is to make a backup of your files. Whether you are using an internal or external drive
 the process should remain relatively the same.
 
-###     1.1 Find your drive 
+### 1.1 Find your drive 
 
-        First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
-        The path to your external drive should be in the following format e.g.: /dev/sda1
+First, find the used hard-drive you want to use by going into your terminal and typing "lsdisk -f." Use sudo, su, etc. if denied permission.
+The path to your external drive should be in the following format e.g.: /dev/sda1
 
 
-        Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of drive, # = number of partition
+Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of drive, # = number of partition
 
-## 1.2 Make directory 
+### 1.2 Make directory 
 
 Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo mkdir -p /mnt/yourdrive"
 
