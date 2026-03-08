@@ -1,16 +1,16 @@
 # Repartitioning an occupied hard-drive
 
+## Cheatsheet   
+    1. [ ] Make directory = sudo mkdir -p /mnt/yourdrive
+    2. [ ] Find your drive = lsdisk -f 
+    3. [ ] Mount your drive = sudo mount /dev/hard-drive /mnt/yourdrive
+    4. [ ] Backup files = rsync -av --progess /mnt/yourdrive /path/to/backup/directory
+
 ## Purpose
 
 This guide explains how to repartition or resize an internal/external hard-drive with pre-existing data on it.
 Repartitioning hard-drives can be done for various reasons. Perhaps you want to multi-boot or use your old external hard-drive as 
 a backup drive. Or maybe your entire disk got corrupted.
-
-## Cheatsheet   
-    1. [ ] Make directory = sudo mkdir -p /mnt/your-hard-drive
-    2. [ ] Find your drive = lsdisk -f 
-    3. [ ] Mount your drive = sudo mount /dev/hard-drive /mnt/your-hard-drive
-    4. [ ] Backup files = rsync -av --progess /mnt/your-hard-drive /path/to/backup/directory
 
 ## 1.Backup 
 
@@ -28,11 +28,11 @@ Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of d
 
 ### Backup 1.2 
 
-I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /path/to/hard-drive /path/to/backup/directory'
+I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive /path/to/backup/directory'
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
 
 **Note:in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
-'rsync -av --progress --partial --append-verify /path/to/hard-drive /path/to/backup/directory'
+'rsync -av --progress --partial --append-verify /mnt/yourdrive /path/to/backup/directory'
 
 -a = archive mode, perserves permissions, timestamps, symlinks, etc. (like cp -a)
 -v = verbose mode, details what files are being transferred
