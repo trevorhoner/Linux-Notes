@@ -24,7 +24,8 @@ Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo
 
 ### 3. Mount your drive 
 
-Mount your hard-drive: "sudo mount /mnt/yourdrive /dev/sdx#" x = 3rd letter of drive, # = number of partition
+Mount your hard-drive: "sudo mount /dev/sdx# /mnt/yourdrive"
+x = 3rd letter of drive, # = number of partition
 
 ### 4. Backup your files
 
