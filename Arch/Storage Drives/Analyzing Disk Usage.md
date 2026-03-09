@@ -11,12 +11,14 @@ Sometimes our disks can balloon or grow exponentially due to unintended backups 
 
 ### 1. Install ncdu
 
-'sudo pacman -S ncdu' 
+`sudo pacman -S ncdu` 
+
 ncdu stands for **NCurses Disk Usage.** It's an extremely light-weight and fast application for analyzing disk space usage of Linux/Unix systems.
 
 ### 2. Analyze Disk with ncdu
 
 `sudo ncdu -x /`
+
 - sudo = gives root permission
 - ncdu = NCurses Disk Usage
 - -x = excludes all other directories besides what is being scanned
