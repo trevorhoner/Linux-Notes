@@ -27,10 +27,10 @@ Create a /mnt folder to mount your hard-drive if you haven't done so. e.g. "sudo
 Mount your hard-drive: "sudo mount /dev/sdx# /mnt/yourdrive"
 x = 3rd letter of drive, # = number of partition
 
-### 4. Backup your files
+### 4. Backup your files with rsync
 
 I recommend using **rsync** to backup your files. Simply use 'rsync -av --progress /mnt/yourdrive/ /path/to/backup/directory/'
-**IMPORTANT:** " / " at the end of the directory = **Trailing** make sure this is here. Otherwise will make new subdirectory.
+**IMPORTANT:** Make sure " / " is at the end of each directory in the command. Otherwise, rsync will not detect your pre-existing files and will make new subdirectory. Adding " / " at the end of each directory is called **Trailing.**
 
 This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
 
@@ -41,7 +41,7 @@ This command will allow you to see the overall progress of files being transferr
  - -v = verbose mode, details what files are being transferred
  - --progress = shows ETA and number of bytes being transferred
  - --partial = keeps partially transferred files instead of deleting them
- - --append-verify = safest resume mode: appends missing data and checksums to make sure nothing got corrupted.
+ - --append-verify = safest resume mode: appends missing data and checksums to resume backup from where interrupted. 
 
 ### 5. 
 
