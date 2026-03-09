@@ -16,7 +16,7 @@ ncdu stands for **NCurses Disk Usage.** It's an extremely light-weight and fast 
 
 ### 2. Analyze Disk with ncdu
 
-"'sudo ncdu -x /'"
+"'sudo ncdu -x /"'
 - sudo = gives root permission
 - ncdu = NCurses Disk Usage
 - -x = excludes all other directories besides what is being scanned
