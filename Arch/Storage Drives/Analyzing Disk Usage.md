@@ -2,8 +2,8 @@
 
 ## Cheatsheet
 
-- [ ] [**1.**]( #1-install-ncdu ) sudo pacman -S ncdu
-- [ ] [**2.**]( #2-analyze-disk-with-ncdu ) sudo ncdu -x /your/directory/or/drive/path/
+- [ ] [**1.**]( #1-install-ncdu ) `sudo pacman -S ncdu`
+- [ ] [**2.**]( #2-analyze-disk-with-ncdu ) `sudo ncdu -x /your/directory/or/drive/path/`
 
 ## Purpose
 
