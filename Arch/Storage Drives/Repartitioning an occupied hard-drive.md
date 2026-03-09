@@ -1,4 +1,4 @@
-# Repartitioning an occupied hard-drive
+# Repartitioning an Occupied Hard-Drive
 
 ## Cheatsheet   
 
