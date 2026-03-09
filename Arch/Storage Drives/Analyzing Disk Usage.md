@@ -3,7 +3,7 @@
 ## Cheatsheet
 
 - [ ] [**1.**]( #1-install-ncdu ) sudo pacman -S ncdu
-- [ ] [**2.**]( #2-analyze-disk-with-ncdu ) sudo ncdu -x /
+- [ ] [**2.**]( #2-analyze-disk-with-ncdu ) sudo ncdu -x /your/directory/or/drive/path/
 
 ## Purpose
 
@@ -20,4 +20,3 @@ ncdu stands for **NCurses Disk Usage.** It's an extremely light-weight and fast 
 - sudo = gives root permission
 - ncdu = NCurses Disk Usage
 - -x = excludes all other directories besides what is being scanned
-- " / " = the drive or directory to be analyzed
