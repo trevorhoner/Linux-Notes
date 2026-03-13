@@ -42,16 +42,14 @@ x = 3rd letter of drive, # = number of partition
 
 I recommend using **rsync** to backup your files. 
 
-Simply use:
 `rsync -azvP --append-verify "/mnt/yourdrive/" "/path/to/backup/directory/"`
 
 **IMPORTANT:** Make sure " / " is at the end of each directory in the command. 
 Otherwise, rsync will not detect your pre-existing files and will duplicate your files into a new subdirectory. 
 Adding " / " at the end of each directory is called **Trailing.**
 
-This command will allow you to see the overall progress of files being transferred as well as an ETA (Estimated Time Arrival).
-
-**Note: in case your transfer gets interrupted and you don't want to overwrite your pre-existing files use:** 
+This command allows you to resume file-transfer in case it gets interrupted and shows the overall progress of your transfer.
+In case you get interrupted just re-run the same command!
 
  - -a = archive mode, perserves permissions, timestamps, symlinks, etc. (like cp -a)
  - -v = verbose mode, details what files are being transferred
