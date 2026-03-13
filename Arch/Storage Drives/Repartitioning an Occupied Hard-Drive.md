@@ -5,7 +5,7 @@
 - [ ] [**1.**]( #1-find-your-drive ) lsblk -f 
 - [ ] [**2.**]( #2-make-mounting-directory ) sudo mkdir -p /mnt/yourdrive
 - [ ] [**3.**]( #3-mount-your-drive ) sudo mount /dev/sdx# /mnt/yourdrive
-- [ ] [**4.**]( #4-backup-your-files ) rsync -azvP --append-verify "/mnt/yourdrive/" "/path/to/backup/directory/"
+- [ ] [**4.**]( #4-backup-your-files-with-rsync ) rsync -azvP --append-verify "/mnt/yourdrive/" "/path/to/backup/directory/"
 
 ## Purpose
 
